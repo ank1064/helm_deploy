@@ -1,5 +1,1 @@
 replicaCount: <+serviceVariables.replica>
-
-service:
-  type: ClusterIP
-  port: 80
