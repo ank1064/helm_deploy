@@ -1,6 +1,4 @@
-image:
-  repository: <+serviceVariables.image>
-  tag: <+serviceVariables.image>
+
   pullPolicy: IfNotPresent
 
 service:
