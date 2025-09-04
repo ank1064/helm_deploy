@@ -1,4 +1,4 @@
 image:
-  repository: <+serviceVariables.image>
-  tag: <+serviceVariables.tag>
+  repository: nginx
+  tag: "1.27.0"
   pullPolicy: IfNotPresent
