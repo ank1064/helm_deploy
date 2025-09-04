@@ -1,2 +1,4 @@
 image:
   repository: <+serviceVariables.image>
+  tag: <+serviceVariables.tag>
+  pullPolicy: IfNotPresent
