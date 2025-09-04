@@ -1,3 +1,6 @@
 replicaCount: <+serviceVariables.replica>
 
+image:
+  repository: <+serviceVariables.image>
+  tag: <+serviceVariables.tag>
 
