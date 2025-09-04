@@ -1,5 +1,5 @@
 image:
-  repository: nginx
+  repository: <+serviceVariables.image>
   pullPolicy: IfNotPresent
 
 service:
