@@ -1,9 +1,5 @@
 replicaCount: <+serviceVariables.replica>
 
-image:
-  tag: "1.27.0"
-  pullPolicy: IfNotPresent
-
 service:
   type: ClusterIP
   port: 80
